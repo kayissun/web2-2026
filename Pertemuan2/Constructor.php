@@ -29,6 +29,14 @@ class User {
     }
 }
 // Membuat object User
-$user1 = new User("Kayis", "kayis@example.com");
+$user1 = new User("Kayis", "kayis@email.com");
+$dosen1 = new User("Smith", "smith@email.com");
+$admin1 = new User("Admin", "admin@email.com");
+
+// Output
 echo $user1->tampil();
+echo "<br>";
+echo $dosen1->tampil();
+echo "<br>";
+echo $admin1->tampil();
 ?>

@@ -39,10 +39,29 @@ class User {
     }
 }
 
+// Membuat object User
 $user1 = new User();
 $user1->setNama("Kayis");
 $user1->setEmail("kayis@email.com");
 
+$dosen1 = new User();
+$dosen1->setNama("Smith");
+$dosen1->setEmail("smith@email.com");
+
+$admin1 = new User();
+$admin1->setNama("Admin");
+$admin1->setEmail("admin@email.com");
+
+// Output
 echo "Nama: " . $user1->getNama();
+echo "<br>";
 echo "Email: " . $user1->getEmail();
+echo "<br>";
+echo "Nama: " . $dosen1->getNama();
+echo "<br>";
+echo "Email: " . $dosen1->getEmail();
+echo "<br>";
+echo "Nama: " . $admin1->getNama();
+echo "<br>";
+echo "Email: " . $admin1->getEmail();
 ?>
