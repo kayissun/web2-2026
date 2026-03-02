@@ -6,9 +6,9 @@ Sebuah kampus ingin membuat sistem sederhana berbasis OOP. Terdapat beberapa jen
 Setiap pengguna memiliki:
     Nama
     Email
-Setiap role memiliki perilaku berbeda dalam sistem. -->
+Setiap role memiliki perilaku berbeda dalam sistem.
 
-<!-- SOAL 
+SOAL 
 Buat class User
 tambahkan property $nama dan $email
 Gunakan constructor untuk menginisialisasi properti tersebut
@@ -29,5 +29,6 @@ class User {
     }
 }
 // Membuat object User
-$user1 = new User("Alice", "alice@example.com");
+$user1 = new User("Kayis", "kayis@example.com");
 echo $user1->tampil();
+?>
